@@ -42,7 +42,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "prepare": "husky",
+    "prepare": "bunx husky",
     "format": "prettier --write --ignore-unknown ."
   },
   "lint-staged": {
