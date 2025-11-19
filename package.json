@@ -20,9 +20,12 @@
       "require": "./dist/index.js"
     }
   },
+  "files": [
+    "dist/**"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vermaysha/windows-1252"
+    "url": "git+https://github.com/vermaysha/windows-1252.git"
   },
   "bugs": "https://github.com/vermaysha/windows-1252/issues",
   "homepage": "https://github.com/vermaysha/windows-1252",
