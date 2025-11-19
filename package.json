@@ -1,0 +1,51 @@
+{
+  "name": "@vermaysha/windows-1252",
+  "description": "a Fast way to encode/decode windows-1252 encoding on Javascript/Typescript work on NodeJS/Bun/Browser",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Ashary Vermaysha",
+    "email": "asharyver13@gmail.com",
+    "url": "https://github.com/vermaysha"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./dist/bun/index.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vermaysha/windows-1252"
+  },
+  "bugs": "https://github.com/vermaysha/windows-1252/issues",
+  "homepage": "https://github.com/vermaysha/windows-1252",
+  "keywords": [
+    "windows-1252",
+    "encoding"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "esbuild-fix-imports-plugin": "^1.0.23",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "3.6.2",
+    "tsup": "^8.5.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write --ignore-unknown ."
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
