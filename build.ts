@@ -22,16 +22,16 @@ await build({
 
 await $`tsc --project tsconfig.dts.json`;
 
-await Bun.build({
-  entrypoints: ['./src/index.ts'],
-  outdir: './dist/bun',
-  minify: {
-    whitespace: true,
-    syntax: true,
-    identifiers: true,
-  },
-  target: 'bun',
-  sourcemap: 'linked',
-});
+// await Bun.build({
+//   entrypoints: ['./src/index.ts'],
+//   outdir: './dist/bun',
+//   minify: {
+//     whitespace: true,
+//     syntax: true,
+//     identifiers: true,
+//   },
+//   target: 'bun',
+//   sourcemap: 'linked',
+// });
 
 process.exit();
