@@ -1,7 +1,7 @@
 {
   "name": "@vermaysha/windows-1252",
   "description": "a Fast way to encode/decode windows-1252 encoding on Javascript/Typescript work on NodeJS/Bun/Browser",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Ashary Vermaysha",
