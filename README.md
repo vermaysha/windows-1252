@@ -30,6 +30,23 @@ pnpm add @vermaysha/windows-1252
 bun add @vermaysha/windows-1252
 ```
 
+### CDN Usage (esm.sh)
+
+You can also use this package directly from a CDN without installation:
+
+```typescript
+// Import everything
+import { encode, decode } from "https://esm.sh/@vermaysha/windows-1252";
+
+// Import only encode function (tree-shakeable)
+import { encode } from "https://esm.sh/@vermaysha/windows-1252/encode";
+
+// Import only decode function (tree-shakeable)
+import { decode } from "https://esm.sh/@vermaysha/windows-1252/decode";
+```
+
+This package exports modular functions, so you can import only what you need to reduce bundle size. Each export path (`/encode` and `/decode`) contains only the specific functionality without importing the other.
+
 ## Usage
 
 ### Basic Encoding
