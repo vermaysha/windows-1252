@@ -13,6 +13,16 @@
   "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
+    "./encode": {
+      "types": "./dist/encode.d.ts",
+      "import": "./dist/encode.mjs",
+      "require": "./dist/encode.js"
+    },
+    "./decode": {
+      "types": "./dist/decode.d.ts",
+      "import": "./dist/decode.mjs",
+      "require": "./dist/decode.js"
+    },
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
