@@ -46,7 +46,7 @@
     "@types/bun": "latest",
     "esbuild-fix-imports-plugin": "^1.0.23",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.6",
+    "lint-staged": "^17.0.2",
     "prettier": "3.8.3",
     "tsup": "^8.5.1"
   },
